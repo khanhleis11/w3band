@@ -1,0 +1,48 @@
+/* Mobile */
+@media screen and (max-width: 739px){
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    
+    #header .search-btn{
+        display: none;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+        padding: 1px 0px;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: #ccc;
+        padding: 0 16px;
+        /* color: #fff; */
+    }
+
+    /* #nav .subnav a {
+        bac
+        color: #fff;
+    } */
+}
+
+/* Tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px){
+    
+}
+
+/* PC */
+@media screen and (min-width: 1024px) {
+    
+}
